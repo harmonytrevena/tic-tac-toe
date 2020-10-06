@@ -1,6 +1,4 @@
 import React from 'react';
-// import ReactDOM from 'react-dom';
-import './index.css';
 
 function Square(props) {
     return (
@@ -9,3 +7,5 @@ function Square(props) {
       </button>
     );
 }
+
+export default Square;

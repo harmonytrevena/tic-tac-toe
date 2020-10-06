@@ -1,8 +1,7 @@
-import React from 'react';
-// import ReactDOM from 'react-dom';
-import './index.css';
+import React, { Component } from 'react';
+import Board from './Board';
 
-class Game extends React.Component {
+class Game extends Component {
     render() {
       return (
         <div className="game">
@@ -17,3 +16,5 @@ class Game extends React.Component {
       );
     }
 }
+
+export default Game;
